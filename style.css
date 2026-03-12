@@ -6,10 +6,17 @@
 }
 
 header{
-    width: 70%;
+   
     background: #004694;
     color: #fff;
     height: 100vh;
+    min-width: 700px;
+    max-width:1200px;
+    margin: auto;
+
+
+
+
 }
 nav{
     display: flex;
@@ -81,15 +88,16 @@ span{
     left: 3px;
     bottom: 15px;
     overflow: hidden;
+   
 }
 .circle span img {
     position: absolute;
     width: 130%;
     height: 120%;
     z-index: 2;
+   
 }
 
 img{
-    width: 320px;
-    height: 320px;
+    width: 100%;
 }
